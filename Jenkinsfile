@@ -7,7 +7,7 @@ pipeline{
   
     stage('clone git') {
       steps{
-        git 'https://github.com/SimplilearnDevOpsOfficial/DockerizeJenkins.git'
+        git 'https://github.com/pd70193/DockerizeJenkins.git'
       }
     }
     
