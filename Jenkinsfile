@@ -2,7 +2,7 @@ pipeline{
 	
 	environment{
 		registry = 'pallavideshmanedockerid/dockerizejenkins'
-		registryCredential = ''
+		registryCredential = 'mydockercred'
 		dockerImage = ''
 	}
 	
