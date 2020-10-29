@@ -10,7 +10,9 @@ pipeline{
 	stages{
 		
 		stage('test'){
+			steps{
 			echo "test stage"
+			}
 		}
 		stage('cloning git') {
 			steps{
